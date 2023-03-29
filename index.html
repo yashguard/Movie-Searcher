@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Searcher</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <nav>
+        Enter movie name : <input type="text" id="movie_name" placeholder="Enter movie name">
+        <input type="submit" value="click" id="submit">
+    </nav>
+    <section class="main-bg">
+        <div class="overlay"></div>
+        <div class="section">
+            <div class="row">
+                <div class="padding col-xl-2">
+                    <div class="w-100">
+                        <img src="" id="poster">
+                    </div>
+                </div>
+                <div class="col-xl-10 text-center">
+                    <span>Title : <h1 id="title"></h1></span>
+                    <br>
+                    <span>Released : <h2 id="released"></h2></span>
+                    <br>
+                    <div class="rating-box">
+                        <div class="row">
+                            <div class="col-xl-3 box">
+                                <div class="w-100">
+                                    <div id="source0"></div>
+                                    <br>
+                                    <div id="value0"></div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 box">
+                                <div class="w-100">
+                                    <div id="source1"></div>
+                                    <br>
+                                    <div id="value1"></div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 box">
+                                <div class="w-100">
+                                    <div id="source2"></div>
+                                    <br>
+                                    <div id="value2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-7">
+                    <div class="w-100">
+                        <div class="contents">
+                            <p>
+                                Actors : <span id="actor"></span>
+                                <br>
+                                Director : <span id="director"></span>
+                                <br>
+                                Country : <span id="country"></span>
+                                <br>
+                                Dubet : <span id="languages"></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5">
+                    <div class="w-100">
+                        <div class="contents">
+                            <p>
+                                Boxoffice : <span id="boxoffice"></span>
+                                <br>
+                                Rated : <span id="rated"></span>
+                                <br>
+                                Writer : <span id="writer"></span>
+                                <br>
+                                Genre : <span id="genre"></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        let submit = document.querySelector("#submit");
+        submit.addEventListener("click", () => {
+        let movie = document.querySelector("#movie_name").value;
+        $.ajax({
+            url: "https://www.omdbapi.com/?t=" + movie + "&apikey=668d0177",
+            type: "get",
+            success: function (res) {
+                console.log(res);
+                $("#poster").attr("src", res.Poster);
+                $("#title").html(res.Title);
+                $("#released").html(res.Released);
+                try {
+                    for (let i = 0; i < res.Ratings.length; i++) {
+                        $("#source" + i).html(res.Ratings[i]["Source"]);
+                        $("#value" + i).html(res.Ratings[i].Value);
+                    }
+                }
+                finally {
+                $("#actor").html(res.Actors);
+                $("#director").html(res.Director);
+                $("#country").html(res.Country);
+                $("#languages").html(res.Language);
+                $("#boxoffice").html(res.BoxOffice);
+                $("#rated").html(res.Rated);
+                $("#writer").html(res.Writer);
+                $("#genre").html(res.Genre);
+                }
+            }
+        })
+        document.querySelector("#movie_name").value = "";
+        document.querySelector("#movie_name").focus();
+        })
+    </script>
+</body>
+
+</html>

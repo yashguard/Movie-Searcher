@@ -1,0 +1,1188 @@
+@media (max-width:575px) {
+    .col-xs-1 {
+        width: 8.3333%;
+    }
+
+    .col-xs-2 {
+        width: 16.6666%;
+    }
+
+    .col-xs-3 {
+        width: 25%;
+    }
+
+    .col-xs-4 {
+        width: 33.3333%;
+    }
+
+    .col-xs-5 {
+        width: 41.6666%;
+    }
+
+    .col-xs-6 {
+        width: 50%;
+    }
+
+    .col-xs-7 {
+        width: 58.3333%;
+    }
+
+    .col-xs-8 {
+        width: 66.6666%;
+    }
+
+    .col-xs-9 {
+        width: 75%;
+    }
+
+    .col-xs-10 {
+        width: 83.3333%;
+    }
+
+    .col-xs-11 {
+        width: 91.6666%;
+    }
+
+    .col-xs-12 {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .col-sm-1 {
+        width: 8.3333%;
+    }
+
+    .col-sm-2 {
+        width: 16.6666%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.3333%;
+    }
+
+    .col-sm-5 {
+        width: 41.6666%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-7 {
+        width: 58.3333%;
+    }
+
+    .col-sm-8 {
+        width: 66.6666%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-10 {
+        width: 83.3333%;
+    }
+
+    .col-sm-11 {
+        width: 91.6666%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+
+    .container {
+        width: 540px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .col-md-1 {
+        width: 8.3333%;
+    }
+
+    .col-md-2 {
+        width: 16.6666%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.3333%;
+    }
+
+    .col-md-5 {
+        width: 41.6666%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-7 {
+        width: 58.3333%;
+    }
+
+    .col-md-8 {
+        width: 66.6666%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-10 {
+        width: 83.3333%;
+    }
+
+    .col-md-11 {
+        width: 91.6666%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+    .container {
+        width: 720px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .col-lg-1 {
+        width: 8.3333%;
+    }
+
+    .col-lg-2 {
+        width: 16.6666%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .col-lg-4 {
+        width: 33.3333%;
+    }
+
+    .col-lg-5 {
+        width: 41.6666%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-7 {
+        width: 58.3333%;
+    }
+
+    .col-lg-8 {
+        width: 66.6666%;
+    }
+
+    .col-lg-9 {
+        width: 75%;
+    }
+
+    .col-lg-10 {
+        width: 83.3333%;
+    }
+
+    .col-lg-11 {
+        width: 91.6666%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+
+    .container {
+        width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .col-xl-1 {
+        width: 8.3333%;
+    }
+
+    .col-xl-2 {
+        width: 16.6666%;
+    }
+
+    .col-xl-3 {
+        width: 25%;
+    }
+
+    .col-xl-4 {
+        width: 33.3333%;
+    }
+
+    .col-xl-5 {
+        width: 41.6666%;
+    }
+
+    .col-xl-6 {
+        width: 50%;
+    }
+
+    .col-xl-7 {
+        width: 58.3333%;
+    }
+
+    .col-xl-8 {
+        width: 66.6666%;
+    }
+
+    .col-xl-9 {
+        width: 75%;
+    }
+
+    .col-xl-10 {
+        width: 83.3333%;
+    }
+
+    .col-xl-11 {
+        width: 91.6666%;
+    }
+
+    .col-xl-12 {
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+
+    .hero-bg-1 h1,
+    .hero-bg-2 h1 {
+        text-align: center;
+    }
+
+    .hero-bg-1 h2,
+    .hero-bg-2 h2 {
+        text-align: center;
+    }
+
+    .hero-bg-1 h2 span,
+    .hero-bg-2 h2 span {
+        text-align: center;
+        display: block;
+    }
+
+    .hero-bg-1 button,
+    .hero-bg-2 button {
+        display: block;
+        margin: 20px auto 0px;
+    }
+
+    /* about section */
+
+    .about-section .about-image .about-ovarlay {
+        width: 700px;
+    }
+
+    .about-section .about-image .about-ovarlay .image {
+        left: 30%;
+    }
+
+    /* contact-us section */
+
+    .contact-us-section .common-content h2 {
+        font-size: 12px;
+        font-weight: 700;
+        font-family: var(--primary-font-family);
+        color: var(--helper-color);
+        text-transform: capitalize;
+        letter-spacing: 4px;
+        margin-bottom: 15px;
+    }
+
+    .common-content h3 {
+        position: relative;
+        font-size: 25px;
+        font-family: var(--primary-font-family);
+        font-weight: 700;
+        padding-bottom: 22px;
+    }
+
+
+    .common-content h3::before {
+        position: absolute;
+        content: "";
+        background-color: var(--secondary-color);
+        width: 7%;
+        height: 3px;
+        bottom: 0px;
+    }
+
+    .common-content .line-center::before {
+        position: absolute;
+        content: "";
+        background-color: var(--secondary-color);
+        width: 5%;
+        height: 3px;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .common-content h3 span {
+        color: var(--secondary-color);
+        font-style: italic;
+        font-family: var(--helper-font-family);
+        font-weight: 550;
+    }
+
+    .contact-us-section .contact-us-para span {
+        color: var(--secondary-color);
+        font-size: 30px;
+    }
+
+    .contact-us-section .contact-us-para p {
+        color: var(--white);
+        font-size: 13px;
+        font-family: var(--primary-font-family);
+        font-weight: 300;
+    }
+
+
+}
+
+@media (max-width:1130px) {
+
+    .about-section .about-image .about-ovarlay .image {
+        left: 40%;
+    }
+
+}
+
+@media (max-width:991px) {
+
+    /* header section */
+    header {
+        z-index: 999;
+        width: 100%;
+    }
+
+    header .toggle {
+        display: block;
+    }
+
+    header nav {
+        position: absolute;
+        width: 100%;
+        background-color: black;
+        left: 0;
+        top: 57px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 1s;
+        z-index: -1;
+        transform: rotateX(90deg);
+        transform-origin: top;
+    }
+
+    header nav .navbar-list {
+        flex-direction: column;
+        gap: 0;
+        height: 100%;
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    header nav .navbar-list li {
+        border-bottom: 1px solid white;
+        text-align: center;
+    }
+
+    header nav .navbar-list li a {
+        line-height: 60px;
+    }
+
+    header nav .navbar-list li:first-child {
+        border-top: 1px solid white;
+    }
+
+    header nav .navbar-list li li {
+        display: none;
+    }
+
+    .show header nav {
+        transform: rotateX(0deg);
+    }
+
+    /* about section */
+
+    .about-section .about-image .about-ovarlay .image {
+        left: 50%;
+    }
+
+    .about-section .about-us {
+        padding-left: 15px;
+        width: 58%;
+        border-bottom: 1px dashed var(--primary-color);
+        z-index: 1;
+        text-align: justify;
+    }
+
+    /* our-team section */
+
+    .images .team-member img {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    .images .team-member .team-member-name {
+        padding: 15px 20px;
+        max-width: 70%;
+        background-color: var(--white);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+        position: absolute;
+        bottom: -10%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .images .team-member .hover-box {
+        position: absolute;
+        bottom: -10%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        max-width: 70%;
+        padding: 11px 20px;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+
+    /* contact-us section */
+
+    .contact-us-section .common-content h2 {
+        font-size: 10px;
+        font-weight: 700;
+        font-family: var(--primary-font-family);
+        color: var(--helper-color);
+        text-transform: capitalize;
+        letter-spacing: 4px;
+        margin-bottom: 15px;
+    }
+
+    .common-content h3 {
+        position: relative;
+        font-size: 21px;
+        font-family: var(--primary-font-family);
+        font-weight: 700;
+        padding-bottom: 22px;
+    }
+
+
+    .common-content h3::before {
+        position: absolute;
+        content: "";
+        background-color: var(--secondary-color);
+        width: 6%;
+        height: 3px;
+        bottom: 0px;
+    }
+
+    .common-content .line-center::before {
+        position: absolute;
+        content: "";
+        background-color: var(--secondary-color);
+        width: 5%;
+        height: 3px;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .common-content h3 span {
+        color: var(--secondary-color);
+        font-style: italic;
+        font-family: var(--helper-font-family);
+        font-weight: 550;
+    }
+
+    .contact-us-section .contact-us-para span {
+        color: var(--secondary-color);
+        font-size: 20px;
+    }
+
+    .contact-us-section .contact-us-para p {
+        color: var(--white);
+        font-size: 8px;
+        font-family: var(--primary-font-family);
+        font-weight: 300;
+    }
+
+    .contact-us-section .registration .name input,
+    .contact-us-section .registration .textarea textarea {
+        width: 100%;
+        padding: 15px 30px;
+        background-color: rgba(255, 255, 255, 0.1);
+        outline: none;
+        border: 1px solid var(--helper-color);
+        color: var(--white);
+        font-size: 12px;
+        transition: all 0.5s;
+    }
+
+    .contact-us-section .registration input::placeholder,
+    .contact-us-section .registration textarea::placeholder {
+        color: var(--white);
+        font-family: var(--primary-font-family);
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .contact-us-section .registration .textarea {
+        padding: 15px;
+    }
+
+    .contact-us-section .registration .textarea textarea {
+        resize: none;
+        height: 150px;
+    }
+
+    .contact-us-section .registration .name input:focus,
+    .contact-us-section .registration .textarea textarea:focus {
+        border: 1px solid var(--white);
+    }
+
+    .registration .textarea button {
+        width: 100%;
+        background: linear-gradient(90deg, rgba(213, 170, 109, 1) 0%, rgba(158, 114, 71, 1) 100%);
+        color: var(--white);
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: var(--primary-font-family);
+        text-transform: capitalize;
+        transition: all 0.5s;
+    }
+
+
+    .registration .textarea button:hover {
+        background: linear-gradient(270deg, rgba(213, 170, 109, 1) 0%, rgba(158, 114, 71, 1) 100%);
+    }
+
+    /* news section */
+
+    .news-section .common-content h2 {
+        font-size: 12px;
+        font-weight: 700;
+        font-family: var(--primary-font-family);
+        color: var(--helper-color);
+        text-transform: capitalize;
+        margin-bottom: 15px;
+    }
+
+    .news-section .common-content h3 {
+        position: relative;
+        font-size: 20px;
+        font-family: var(--primary-font-family);
+        font-weight: 700;
+        padding-bottom: 22px;
+    }
+
+
+    .news-section .common-content h3::before {
+        position: absolute;
+        content: "";
+        background-color: var(--secondary-color);
+        width: 6%;
+        height: 3px;
+        bottom: 0px;
+    }
+
+    .news-section .news-para p {
+        font-size: 13px;
+        text-align: justify;
+        font-family: var(--primary-font-family);
+        color: var(--helper-font-color);
+        padding-top: 20px;
+    }
+
+
+}
+
+@media (max-width:815px) {
+
+    .about-section .about-image .about-ovarlay .image {
+        left: 40%;
+    }
+
+    .about-section .about-image .about-ovarlay {
+        width: 500px;
+    }
+
+}
+
+@media (max-width:767px) {
+
+    .information-section .img-2 {
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+
+    .hero-bg-1 h1,
+    .hero-bg-2 h1 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .hero-bg-1 h2,
+    .hero-bg-2 h2 {
+        text-align: center;
+        font-size: 25px;
+        line-height: 40px;
+        margin: 0 auto;
+    }
+
+    .hero-bg-1 h2 span,
+    .hero-bg-2 h2 span {
+        text-align: center;
+        display: block;
+        font-size: 25px;
+    }
+
+    .hero-bg-1 button,
+    .hero-bg-2 button {
+        display: block;
+        margin: 20px auto 0px;
+        padding: 5px 10px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    /* about section */
+
+    .about-section .about-image .about-ovarlay {
+        width: 500px;
+    }
+
+    .about-section .about-image .about-ovarlay .image {
+        left: 40%;
+        width: 200px;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-section .about-image .light-ovarlay {
+        background-color: rgba(255, 255, 255, 0.9);
+        width: 170px;
+        height: 330px;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-section .about-image .light-ovarlay .content {
+        padding-top: 0px;
+        align-self: center;
+    }
+
+    .about-section .about-image .light-ovarlay .content h2 {
+        font-size: 80px;
+        font-weight: 700;
+        font-family: var(--secondary-font-family);
+        color: var(--primary-color);
+        text-align: center;
+    }
+
+    .about-section .about-image .light-ovarlay .content h2 span {
+        display: block;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: var(--helper-font-family);
+        color: var(--primary-color);
+        text-align: center;
+    }
+
+    .about-section .about-us {
+        padding-left: 15px;
+        width: 58%;
+        border-bottom: 1px dashed var(--primary-color);
+        z-index: 1;
+    }
+
+    .common-content h2 {
+        font-size: 12px;
+        font-weight: 600;
+        font-family: var(--primary-font-family);
+        color: var(--helper-color);
+        text-transform: capitalize;
+        letter-spacing: 4px;
+        margin-bottom: 15px;
+    }
+
+    .common-content h3 {
+        position: relative;
+        font-size: 22px;
+        font-family: var(--primary-font-family);
+        font-weight: 900;
+        padding-bottom: 22px;
+    }
+
+
+    .common-content h3::before {
+        position: absolute;
+        content: "";
+        background-color: var(--secondary-color);
+        width: 5%;
+        height: 3px;
+        bottom: 0px;
+    }
+
+    .common-content h3 span {
+        color: var(--secondary-color);
+        font-style: italic;
+        font-family: var(--helper-font-family);
+        font-weight: 600;
+    }
+
+    .about-section .about-us p {
+        font-size: 14px;
+        font-family: var(--helper-font-family);
+        color: var(--primary-color);
+        margin-top: 30px;
+        margin-bottom: 18px;
+        font-weight: 500;
+    }
+
+    .about-section .about-us p a {
+        color: var(--helper-color);
+        font-family: var(--secondary-color);
+        text-decoration: underline;
+    }
+
+    .about-section .about-us .contact {
+        font-size: 14px;
+        font-family: var(--primary-font-family);
+        font-weight: 700;
+    }
+
+    .about-section .about-us .contact a {
+        font-size: 14px;
+        color: var(--primary-color);
+        font-family: var(--primary-font-family);
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    .about-section .about-us .contact span {
+        display: block;
+        color: var(--primary-color);
+        font-size: 18px;
+        font-weight: 700;
+        font-family: var(--primary-font-family);
+    }
+
+    .about-section .about-premium h2 {
+        font-size: 12px;
+        font-family: var(--secondary-font-family);
+        margin-bottom: 20px;
+    }
+
+    .about-section .about-premium h2 i {
+        margin-right: 5px;
+        font-size: 10px;
+    }
+
+    .about-section .signature {
+        margin-top: 20px;
+    }
+
+    .about-section .signature .name {
+        margin-left: 20px;
+    }
+
+    .about-section .signature .name h2 {
+        font-size: 15px;
+        font-family: var(--primary-font-family);
+        font-weight: 700;
+        color: var(--primary-color);
+    }
+
+    .about-section .signature .name h3 {
+        font-size: 14px;
+        font-family: var(--primary-font-family);
+        color: var(--header-color);
+        font-weight: 400;
+    }
+
+    /* fun-fact section */
+
+    .fun-fact-section .common-content {
+        text-align: center;
+    }
+
+    .fun-fact-section .common-content h3::before {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    /* our-team section */
+
+    .information-section .common-content {
+        text-align: center;
+    }
+
+    .information-section .common-content h3::before {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .images .team-member img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .images .team-member .team-member-name {
+        padding: 15px 20px;
+        max-width: 50%;
+        background-color: var(--white);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+        position: absolute;
+        bottom: -10%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .images .team-member .hover-box {
+        position: absolute;
+        bottom: -10%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        max-width: 50%;
+        padding: 11px 20px;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+
+    /* contact-us section */
+
+    .contact-us-section .common-content h2 {
+        text-align: center;
+        font-size: 10px;
+        font-weight: 700;
+        font-family: var(--primary-font-family);
+        color: var(--helper-color);
+        text-transform: capitalize;
+        letter-spacing: 4px;
+        margin-bottom: 15px;
+    }
+
+    .contact-us-section .common-content h3 {
+        text-align: center;
+        position: relative;
+        font-size: 21px;
+        font-family: var(--primary-font-family);
+        font-weight: 700;
+        padding-bottom: 22px;
+    }
+
+
+    .contact-us-section .common-content h3::before {
+        position: absolute;
+        content: "";
+        background-color: var(--secondary-color);
+        width: 5%;
+        height: 3px;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .contact-us-section .contact-us-para span {
+        color: var(--secondary-color);
+        font-size: 30px;
+        display: block;
+        text-align: center;
+    }
+
+    .contact-us-section .contact-us-para p {
+        color: var(--white);
+        text-align: center;
+        font-size: 14px;
+        font-family: var(--primary-font-family);
+        font-weight: 300;
+    }
+
+    .contact-us-section .registration .name input,
+    .contact-us-section .registration .textarea textarea {
+        width: 100%;
+        padding: 15px 30px;
+        background-color: rgba(255, 255, 255, 0.1);
+        outline: none;
+        border: 1px solid var(--helper-color);
+        color: var(--white);
+        font-size: 12px;
+        transition: all 0.5s;
+    }
+
+    .contact-us-section .registration input::placeholder,
+    .contact-us-section .registration textarea::placeholder {
+        color: var(--white);
+        font-family: var(--primary-font-family);
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contact-us-section .registration .textarea {
+        padding: 15px;
+    }
+
+    .contact-us-section .registration .textarea textarea {
+        resize: none;
+        height: 150px;
+    }
+
+    .contact-us-section .registration .name input:focus,
+    .contact-us-section .registration .textarea textarea:focus {
+        border: 1px solid var(--white);
+    }
+
+    .registration .textarea button {
+        width: 100%;
+        background: linear-gradient(90deg, rgba(213, 170, 109, 1) 0%, rgba(158, 114, 71, 1) 100%);
+        color: var(--white);
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: var(--primary-font-family);
+        text-transform: capitalize;
+        transition: all 0.5s;
+    }
+
+
+    .registration .textarea button:hover {
+        background: linear-gradient(270deg, rgba(213, 170, 109, 1) 0%, rgba(158, 114, 71, 1) 100%);
+    }
+
+    /* news section */
+
+    .news-section .common-content h2 {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 700;
+        font-family: var(--primary-font-family);
+        color: var(--helper-color);
+        text-transform: capitalize;
+        margin-bottom: 15px;
+    }
+
+    .news-section .common-content h3 {
+        text-align: center;
+        position: relative;
+        font-size: 20px;
+        font-family: var(--primary-font-family);
+        font-weight: 700;
+        padding-bottom: 22px;
+    }
+
+
+    .news-section .common-content h3::before {
+        position: absolute;
+        content: "";
+        background-color: var(--secondary-color);
+        width: 6%;
+        height: 3px;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .news-section .news-para p {
+        text-align: center;
+        font-size: 13px;
+        font-family: var(--primary-font-family);
+        color: var(--helper-font-color);
+        padding-top: 20px;
+    }
+
+    /* subscribe section */
+    .subscribe-section .subscribe-bg h3 {
+        color: var(--white);
+        font-size: 20px;
+        font-family: var(--primary-font-family);
+        font-weight: 300;
+    }
+
+    .subscribe-section .subscribe-bg form input {
+        background-color: transparent;
+        border: 1px solid var(--secondary-color);
+        font-size: 13px;
+        color: var(--white);
+        padding: 13px 26px;
+        width: 40%;
+        outline: none;
+    }
+
+    .subscribe-section .subscribe-bg form input::placeholder {
+        font-size: 13px;
+        color: var(--helper-font-color);
+    }
+
+    .subscribe-section .subscribe-bg form button {
+        font-size: 14px;
+        position: absolute;
+        font-family: var(--primary-font-family);
+        border: none;
+        background-color: var(--secondary-color);
+        padding: 11px 26px;
+        color: var(--primary-color);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 600;
+        top: 0;
+        left: 40%;
+        cursor: pointer;
+        box-shadow: 0px 10px 20px rgb(213 170 109 / 20%);
+    }
+
+    /* main footer */
+
+    .black-bg {
+        background-color: black;
+        padding: 25px 0;
+    }
+
+    .black-bg .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .copyright {
+        font-size: 14px;
+        color: var(--helper-font-color);
+        font-family: var(--primary-font-family);
+        font-weight: 400;
+    }
+
+}
+
+@media (max-width:675px) {
+
+    .about-section .about-image .about-ovarlay {
+        width: 400px;
+    }
+
+}
+
+@media (max-width:560px) {
+
+    .about-section .about-image .about-ovarlay {
+        width: 350px;
+    }
+
+    .about-section .about-image .about-ovarlay .image {
+        width: 140px;
+        height: 260px;
+    }
+
+    .about-section .about-image .light-ovarlay {
+        background-color: rgba(255, 255, 255, 0.9);
+        width: 130px;
+        height: 250px;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-section .about-image .light-ovarlay .content {
+        padding-top: 0px;
+        align-self: center;
+    }
+
+    .about-section .about-image .light-ovarlay .content h2 {
+        font-size: 50px;
+        font-weight: 700;
+        font-family: var(--secondary-font-family);
+        color: var(--primary-color);
+        text-align: center;
+    }
+
+    .about-section .about-image .light-ovarlay .content h2 span {
+        display: block;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: var(--helper-font-family);
+        color: var(--primary-color);
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width:575px) {
+
+    .fun-fact-section .statue {
+        top: 0;
+    }
+
+    /* our-team section */
+
+    .images .team-member img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .images .team-member .team-member-name {
+        padding: 15px 20px;
+        width: 45%;
+        background-color: var(--white);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+        position: absolute;
+        bottom: -10%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .images .team-member .hover-box {
+        position: absolute;
+        bottom: -10%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 45%;
+        padding: 11px 20px;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+
+}
